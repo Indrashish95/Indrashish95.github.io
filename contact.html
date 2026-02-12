@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact · YOUR_NAME</title>
+  <meta name="description" content="Contact YOUR_NAME." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="../index.html">YOUR_NAME</a>
+        <nav class="nav">
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="contact.html">Contact</a>
+          <a class="pill" href="../assets/CV.pdf">CV</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Contact</h1>
+    <section class="card">
+      <p><strong>Email:</strong> <a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+      <p><strong>Office:</strong> Building / Room, University</p>
+      <p><strong>Address:</strong> Department, University, City, State</p>
+
+      <p class="smalllinks">
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+        <span class="dot">•</span>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <span class="dot">•</span>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="y"></span> YOUR_NAME</small>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

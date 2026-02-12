@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indrashish</title>
+  <meta name="description" content="Academic website of Indrashish." />
+  <meta name="author" content="Indrashish" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="index.html">Indrashish</a>
+        <nav class="nav">
+          <a href="pages/publications.html">Publications</a>
+          <a href="pages/projects.html">Projects</a>
+          <a href="pages/teaching.html">Teaching</a>
+          <a href="pages/contact.html">Contact</a>
+          <a class="pill" href="assets/CV.pdf">CV</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img class="headshot" src="assets/headshot.jpg" alt="Headshot of Indrashish" />
+      <div>
+        <h1>Indrashish</h1>
+        <p class="subtitle">PhD Candidate · Department · University</p>
+
+        <p>
+          I work on <strong>your research area</strong> (1–2 sentences). Mention your methods, key themes,
+          and what kinds of problems you care about.
+        </p>
+
+        <div class="linkrow">
+          <a href="mailto:isaha3@jh.edu">isaha3@jh.edu</a>
+          <span class="dot">•</span>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+          <span class="dot">•</span>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">•</span>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+
+        <div class="cta">
+          <a class="button" href="pages/publications.html">View Publications</a>
+          <a class="button ghost" href="assets/CV.pdf">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid2">
+      <div class="card">
+        <h2>Research Interests</h2>
+        <ul class="bullets">
+          <li>Topic 1 (e.g., computational mechanics, fracture)</li>
+          <li>Topic 2 (e.g., multiscale modeling, CPFE)</li>
+          <li>Topic 3 (e.g., ML surrogates for materials)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>News</h2>
+        <ul class="bullets">
+          <li><strong>2026:</strong> Add a recent update (paper accepted, award, etc.).</li>
+          <li><strong>2025:</strong> Presented at XYZ conference.</li>
+          <li><strong>2024:</strong> Started PhD / joined lab.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Selected Work</h2>
+      <div class="cards">
+        <article class="mini">
+          <h3>Paper / Project Title</h3>
+          <p>1–2 line description of the result and why it matters.</p>
+          <p class="smalllinks">
+            <a href="assets/papers/example-paper.pdf">PDF</a>
+            <span class="dot">•</span>
+            <a href="https://doi.org/" target="_blank" rel="noopener">DOI</a>
+            <span class="dot">•</span>
+            <a href="pages/projects.html">More</a>
+          </p>
+        </article>
+
+        <article class="mini">
+          <h3>Software / Dataset</h3>
+          <p>Describe a codebase, tool, or dataset you maintain.</p>
+          <p class="smalllinks">
+            <a href="https://github.com/" target="_blank" rel="noopener">Code</a>
+            <span class="dot">•</span>
+            <a href="pages/contact.html">Contact</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="y"></span> Indrashish · Built with plain HTML/CSS · Hosted on GitHub Pages</small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

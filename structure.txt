@@ -1,0 +1,19 @@
+your-site/
+  index.html
+  styles.css
+  robots.txt
+  sitemap.xml
+  404.html
+  .nojekyll
+  pages/
+    publications.html
+    projects.html
+    teaching.html
+    contact.html
+  assets/
+    headshot.jpg
+    CV.pdf
+    papers/
+      example-paper.pdf
+    images/
+      example-project.png
