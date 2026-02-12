@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects · Indrashish</title>
+  <meta name="description" content="Projects by Indrashish." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="../index.html">Indrashish</a>
+        <nav class="nav">
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="contact.html">Contact</a>
+          <a class="pill" href="../assets/CV.pdf">CV</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Projects</h1>
+    <p class="kicker">Add 3–8 projects with a short blurb, image, and links.</p>
+
+    <section class="card">
+      <div class="cards">
+        <article class="mini">
+          <h3>Project Title</h3>
+          <p>One paragraph describing what you built and what the outcome is.</p>
+          <p class="smalllinks">
+            <a href="../assets/images/example-project.png">Image</a>
+            <span class="dot">•</span>
+            <a href="https://github.com/" target="_blank" rel="noopener">Code</a>
+            <span class="dot">•</span>
+            <a href="#">Paper</a>
+          </p>
+        </article>
+
+        <article class="mini">
+          <h3>Another Project</h3>
+          <p>Short summary. Mention methods + application.</p>
+          <p class="smalllinks">
+            <a href="#">Demo</a>
+            <span class="dot">•</span>
+            <a href="#">Code</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="y"></span> Indrashish</small>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

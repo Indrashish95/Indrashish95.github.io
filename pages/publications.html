@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publications · YOUR_NAME</title>
+  <meta name="description" content="Publications by YOUR_NAME." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="../index.html">YOUR_NAME</a>
+        <nav class="nav">
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="contact.html">Contact</a>
+          <a class="pill" href="../assets/CV.pdf">CV</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Publications</h1>
+    <p class="kicker">Reverse chronological. Replace these entries with yours.</p>
+
+    <section class="card">
+      <div class="pub">
+        <div>
+          <div><strong>Paper Title (Year)</strong></div>
+          <div class="meta">YOUR_NAME, Coauthor, Coauthor · <em>Journal/Conference</em></div>
+        </div>
+        <div class="badges">
+          <a class="badge" href="../assets/papers/example-paper.pdf">PDF</a>
+          <a class="badge" href="https://doi.org/" target="_blank" rel="noopener">DOI</a>
+          <a class="badge" href="#" title="Add a BibTeX file or link">BibTeX</a>
+        </div>
+      </div>
+
+      <div class="pub">
+        <div>
+          <div><strong>Another Paper Title (Year)</strong></div>
+          <div class="meta">YOUR_NAME, Coauthor · <em>Venue</em></div>
+        </div>
+        <div class="badges">
+          <a class="badge" href="#">PDF</a>
+          <a class="badge" href="#">DOI</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="y"></span> YOUR_NAME</small>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
